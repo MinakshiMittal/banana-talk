@@ -5,3 +5,11 @@ textarea {
     margin: 1rem;
     padding: 1rem;
 }
+
+#translating-div {
+    border: 1px solid black;
+    height: 10vh;
+    width: 80%;
+    margin: 1rem;
+    padding: 1rem;
+}
