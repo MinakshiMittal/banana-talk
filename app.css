@@ -2,8 +2,9 @@ textarea {
     width: 80%;
     height: 10vh;
     display: block;
-    margin: 1rem;
     padding: 1rem;
+    margin: auto;
+    margin-top: 3rem;
 }
 
 #translating-div {
@@ -12,4 +13,49 @@ textarea {
     width: 80%;
     margin: 1rem;
     padding: 1rem;
+    margin: auto;
+}
+
+.img-crop {
+    max-height: 100%;
+    max-width: 100%;
+    overflow: hidden; 
+}
+
+.img-crop img {
+    width: 100%;
+    max-height: initial;
+    margin-top: -34.8%;
+    margin-bottom: -17%; 
+}
+
+h1 {
+    text-align: center;
+    color: #ffff00;
+    margin-inline-end: 0em;
+    margin-inline-start: 0em;
+    margin-block-end: 0em;
+    margin-block-start: 0em;
+    font-size: 3rem;
+    text-shadow: 8px 9px 10px #000000;
+    font-family: sans-serif;
+}
+
+#btn-translate {
+    margin-left: 7rem;
+    height: 8vh;
+    width: 15%;
+    margin-top: 1rem;
+    font-size: larger;
+    border-radius: 2rem;
+    font-weight: bold;
+    background-color: rgb(15, 198, 204);
+    color: #ffff00;
+}
+
+.description-text {
+    margin-left: 7rem;
+    font-weight: bold;
+    margin-top: 1rem;
+    font-size: 1.3rem;
 }
